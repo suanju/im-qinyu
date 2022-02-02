@@ -1,0 +1,15 @@
+{
+  "name": "登陆",
+  "alias": "login",
+  "description": "login 模块",
+  "version": "1.0.0",
+  "keywords": [],
+  "order": 100,
+  "services": [
+    "\\catchAdmin\\login\\LoginService"
+  ],
+  "aliases": {},
+  "files": [],
+  "requires": [],
+  "enable": true
+}

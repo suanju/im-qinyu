@@ -1,0 +1,160 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/chat/chatList",
+			"style": {
+				"navigationBarTitleText": "聊天列表",
+				"enablePullDownRefresh":true
+			}
+		}, {
+			"path": "pages/login/login",
+			"name" :"login",
+			"style": {}
+		}, {
+			"path": "pages/login/forget",
+			"name" :"forget",
+			"style": {}
+		}, {
+			"path": "pages/login/register",
+			"name" :"register",
+			"style": {}
+		},
+		{
+			"path": "pages/login/springBoard",
+			"name" :"springBoard",
+			"style": {}
+		},{
+			"path": "pages/chat/chatRoom",
+			"style": {
+				"navigationBarTitleText": "聊天页面"
+
+			}
+		},
+		{
+			"path": "pages/chat/map",
+			"style": {
+				"navigationBarTitleText": "地图"
+		
+			}
+		},{
+			"path": "pages/contact/index",
+			"style": {
+				"navigationBarTitleText": "联系人列表",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/contact/addFriend",
+			"style": {
+				"navigationBarTitleText": "添加好友/群聊"
+			}
+		},
+		{
+			"path": "pages/contact/newFriend",
+			"style": {
+				"navigationBarTitleText": "新朋友"
+			}
+		},
+		{
+			"path": "pages/contact/newGroup",
+			"style": {
+				"navigationBarTitleText": "群通知"
+			}
+		},
+		{
+			"path": "pages/dynamic/index",
+			"style": {
+				"navigationBarTitleText": "动态",
+				"enablePullDownRefresh":true
+			}
+		}
+		,
+		{
+			"path": "pages/dynamic/myDynamic",
+			"style": {
+				"navigationBarTitleText": "我的动态",
+				"enablePullDownRefresh":true
+			}
+		}, {
+			"path": "pages/dynamic/addDynamic",
+			"style": {
+				"navigationBarTitleText": "发布动态"
+			}
+		},
+		{
+			"path": "pages/dynamic/dynamicInfo",
+			"style": {
+				"navigationBarTitleText": "动态详情"
+			}
+		},{
+			"path": "pages/personal/index",
+			"style": {
+				"navigationBarTitleText": "资料卡"
+			}
+		},{
+			"path": "pages/personal/friendCard",
+			"style": {
+				"navigationBarTitleText": "好友资料卡"
+			}
+		},{
+			"path": "pages/collect/index",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},{
+			"path": "pages/group/create",
+			"style": {
+				"navigationBarTitleText": "创建群聊"
+			}
+		},{
+			"path": "pages/group/chatGroupRoom",
+			"style": {
+				"navigationBarTitleText": "群聊聊天"
+			}
+		},{
+			"path": "pages/group/groupInfo",
+			"style": {
+				"navigationBarTitleText": "群详情"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "即时通讯",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"titleNView": false
+		}
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black", 
+		"list": [{
+				"pagePath": "pages/chat/chatList",
+				"iconPath": "static/icon/xiaoxi.png",
+				"selectedIconPath": "static/icon/xiaoxi_select.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/contact/index", 
+				"iconPath": "static/icon/lianxiren.png",
+				"selectedIconPath": "static/icon/lianxiren_select.png",
+				"text": "联系人"
+			},
+			{
+				"pagePath": "pages/dynamic/index",
+				"iconPath": "static/icon/kongjian.png",
+				"selectedIconPath": "static/icon/kongjian_select.png",
+				"text": "动态"
+			}
+		]
+	}
+	
+}

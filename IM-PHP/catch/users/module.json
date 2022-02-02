@@ -1,0 +1,15 @@
+{
+    "name": "users",
+    "alias": "users",
+    "description": "用户相关",
+    "version": "1.0.0",
+    "keywords": ["users"],
+    "order": 0,
+    "services": [
+        "\\catchAdmin\\users\\UsersService"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "enable": true
+}

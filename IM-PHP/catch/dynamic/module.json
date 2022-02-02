@@ -1,0 +1,15 @@
+{
+    "name": "动态相关",
+    "alias": "dynamic",
+    "description": "动态相关",
+    "version": "1.0.0",
+    "keywords": ["dynamic"],
+    "order": 0,
+    "services": [
+        "\\catchAdmin\\dynamic\\DynamicService"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "enable": true
+}

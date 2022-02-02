@@ -1,0 +1,15 @@
+{
+    "name": "群聊相关",
+    "alias": "group",
+    "description": "群聊相关",
+    "version": "1.0.0",
+    "keywords": ["group"],
+    "order": 0,
+    "services": [
+        "\\catchAdmin\\group\\GroupService"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "enable": true
+}
